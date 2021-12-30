@@ -21,7 +21,7 @@
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.7);
-  padding: 0 120px;
+  padding: 0 160px;
   position: absolute;
   z-index: 2;
 }
@@ -78,6 +78,7 @@
 }
 
 .container .textbox {
+  margin-left: 50px;
   margin-top: 150px;
 }
 
@@ -140,5 +141,108 @@
   position: absolute;
   top: 140px;
   right: 210px;
+}
+
+.section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  padding: 0 160px;
+}
+
+.section-2 .chap-container {
+  width: 45%;
+  height: 100%;
+  padding: 30px 0;
+}
+
+.section-2 .chap-container .topimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.section-2 .chap-container .topimg .imgbox-1 {
+  width: 230px;
+  height: 304px;
+  background-image: url(/images/Image1.jpg);
+  background-position: center;
+}
+
+.section-2 .chap-container .topimg .imgbox-2 {
+  width: 250px;
+  height: 250px;
+  background-image: url(/images/Image2.jpg);
+  background-position: center;
+}
+
+.section-2 .chap-container .bottomimg {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.section-2 .chap-container .bottomimg .imgbox-3 {
+  width: 144px;
+  height: 265px;
+  background-image: url(/images/Image3.jpg);
+  background-position: center;
+}
+
+.section-2 .chap-container .bottomimg .imgbox-4 {
+  width: 336px;
+  height: 336px;
+  background-image: url(/images/Image4.jpg);
+  background-position: center;
+}
+
+.section-2 .ong-container {
+  padding-top: 50px;
+  width: 55%;
+  height: 100%;
+}
+
+.section-2 .ong-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 22px;
+  color: black;
+}
+
+.section-2 .ong-container .line {
+  width: 43px;
+  height: 2px;
+  background: #EFCA08;
+  margin: 20px 0;
+}
+
+.section-2 .ong-container b {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.section-2 .ong-container p {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
 }
 /*# sourceMappingURL=style.css.map */
