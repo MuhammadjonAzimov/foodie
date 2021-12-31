@@ -245,4 +245,100 @@
   line-height: 28px;
   color: #666666;
 }
+
+.section-3 {
+  width: 100%;
+  height: 100vh;
+  background: #FE724C;
+  padding: 0 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-3 .chap-container-3 {
+  width: 50%;
+  height: 100%;
+}
+
+.section-3 .chap-container-3 .title {
+  margin-top: 90px;
+}
+
+.section-3 .chap-container-3 .title h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 22px;
+  color: white;
+}
+
+.section-3 .chap-container-3 .title .line-3 {
+  margin-top: 25px;
+  width: 63px;
+  height: 2px;
+  background: white;
+}
+
+.section-3 .chap-container-3 .container-3text {
+  margin-top: 50px;
+}
+
+.section-3 .chap-container-3 .container-3text .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
+  margin-bottom: 45px;
+}
+
+.section-3 .chap-container-3 .container-3text .row .row-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 109px;
+  height: 109px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+}
+
+.section-3 .chap-container-3 .container-3text .row .row-text b {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.section-3 .chap-container-3 .container-3text .row .row-text p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.section-3 .ong-container-3 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.section-3 .ong-container-3 img {
+  width: 300px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
 /*# sourceMappingURL=style.css.map */
