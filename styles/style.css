@@ -341,4 +341,53 @@
   top: 70px;
   left: 70px;
 }
+
+.section-4 {
+  width: 100%;
+  height: 100vh;
+  padding: 80px 280px;
+}
+
+.section-4 .screenshots-text {
+  text-align: center;
+}
+
+.section-4 .screenshots-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.section-4 .screenshot-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 22px;
+}
+
+.section-4 .screenshot-line .screen-line {
+  width: 63px;
+  height: 2px;
+  background: #FE724C;
+}
+
+.section-4 .screenshots {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-4 .screenshots img {
+  width: 230px;
+}
 /*# sourceMappingURL=style.css.map */
