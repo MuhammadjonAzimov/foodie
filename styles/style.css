@@ -390,4 +390,162 @@
 .section-4 .screenshots img {
   width: 230px;
 }
+
+.footer {
+  width: 100%;
+  height: 100vh;
+}
+
+.footer .bigfooter {
+  width: 100%;
+  height: 75%;
+  background: #F4F5F7;
+  padding: 55px 200px;
+}
+
+.footer .bigfooter .bigfooter-text {
+  text-align: center;
+}
+
+.footer .bigfooter .bigfooter-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 64px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #000000;
+}
+
+.footer .bigfooter .bigfooter-text p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+}
+
+.footer .bigfooter .bigfooter-textboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer .bigfooter .bigfooter-textboxes .bigfooter-textbox {
+  text-align: center;
+  padding-top: 23px;
+  width: 350px;
+  height: 200px;
+  background: white;
+}
+
+.footer .bigfooter .bigfooter-textboxes .bigfooter-textbox h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+}
+
+.footer .bigfooter .bigfooter-textboxes .bigfooter-textbox p {
+  margin-top: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+  opacity: 0.8;
+}
+
+.footer .bigfooter .bigfooter-textboxes .bigfooter-box {
+  text-align: center;
+}
+
+.footer .bigfooter .bigfooter-textboxes .bigfooter-box h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+}
+
+.footer .bigfooter .bigfooter-textboxes .bigfooter-box p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #474A57;
+}
+
+.footer .bigfooter .bigfooter-textboxes .textbox-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  background: chartreuse;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto 0 auto;
+}
+
+.footer .minifooter {
+  width: 100%;
+  height: 25%;
+  background: #000000;
+  padding: 40px 200px;
+}
+
+.footer .minifooter .footer-navigation {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.footer .minifooter .footer-navigation a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.footer .minifooter p {
+  margin-top: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #D9DBE1;
+}
 /*# sourceMappingURL=style.css.map */
